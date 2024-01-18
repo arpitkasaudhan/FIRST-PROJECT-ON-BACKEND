@@ -1,0 +1,15 @@
+{
+  "name": "backend-project",
+  "version": "1.0.0",
+  "description": "MY FIRST PROJECT ON BACKEND",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Javascript",
+    "Backend"
+  ],
+  "author": "Arpit Kasaudhan",
+  "license": "ISC"
+}
