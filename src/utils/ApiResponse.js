@@ -8,5 +8,4 @@ class ApiResponse{
         // api ke server ke statusCode hota 
     }
 }
-
 export {ApiResponse}
