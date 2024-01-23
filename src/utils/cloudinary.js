@@ -17,8 +17,9 @@ cloudinary.config({
             resource_type:"auto"
         })
         ///file upload ho gyi
-        console.log("file is upload on coldiianary",response.url);
-        return response
+       // console.log("file is upload on coldiianary",response.url);
+       fs.unlinkSync(localFilePath)
+       return response
     } catch (error) {
         fs.unlinkSync(localFilePath)// remove the loacaly saved temproary fle as the operotion got faled
         return null
