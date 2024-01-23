@@ -2,7 +2,7 @@
 // code ki consistency ko kaharab krta hai dusri approach hai
 import dotenv from "dotenv"
 import connectDB from "./db/index.js";
-
+import {app} from './app.js'
 dotenv.config({
     path:'./env'
 })
